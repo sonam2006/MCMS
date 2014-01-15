@@ -2,16 +2,18 @@
 //  AppDelegate.m
 //  MCMS
 //
-//  Created by Matthew Voracek on 1/14/14.
-//  Copyright (c) 2014 Matthew Voracek. All rights reserved.
+//  Created by Sonam Mehta on 1/14/14.
+//  Copyright (c) 2014 Sonam Mehta. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import <CheckMate/CheckMate.h>
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [CheckMate initializeFramework:@"e1295e4bd5716c9c12e76c375e7b9245"];
     // Override point for customization after application launch.
     return YES;
 }

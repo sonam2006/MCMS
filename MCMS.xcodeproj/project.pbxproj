@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27FE133B188603B500576B9F /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27FE133A188603B400576B9F /* CheckMate.framework */; };
 		C9D023A61885D4C9002E5F7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D023A51885D4C9002E5F7C /* Foundation.framework */; };
 		C9D023A81885D4C9002E5F7C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D023A71885D4C9002E5F7C /* CoreGraphics.framework */; };
 		C9D023AA1885D4C9002E5F7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D023A91885D4C9002E5F7C /* UIKit.framework */; };
@@ -21,6 +22,8 @@
 		C9D023C71885D4C9002E5F7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D023A91885D4C9002E5F7C /* UIKit.framework */; };
 		C9D023CF1885D4C9002E5F7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9D023CD1885D4C9002E5F7C /* InfoPlist.strings */; };
 		C9D023D11885D4C9002E5F7C /* MCMSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D023D01885D4C9002E5F7C /* MCMSTests.m */; };
+		C9D023DC1885D70C002E5F7C /* MagicalCreature.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D023DB1885D70C002E5F7C /* MagicalCreature.m */; };
+		C9D023DF1885E2A6002E5F7C /* CreatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D023DE1885E2A6002E5F7C /* CreatureViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27FE133A188603B400576B9F /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CheckMate.framework; path = ../../CheckMate.framework; sourceTree = "<group>"; };
 		C9D023A21885D4C9002E5F7C /* MCMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D023A51885D4C9002E5F7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C9D023A71885D4C9002E5F7C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +57,10 @@
 		C9D023CC1885D4C9002E5F7C /* MCMSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MCMSTests-Info.plist"; sourceTree = "<group>"; };
 		C9D023CE1885D4C9002E5F7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C9D023D01885D4C9002E5F7C /* MCMSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCMSTests.m; sourceTree = "<group>"; };
+		C9D023DA1885D70C002E5F7C /* MagicalCreature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalCreature.h; sourceTree = "<group>"; };
+		C9D023DB1885D70C002E5F7C /* MagicalCreature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicalCreature.m; sourceTree = "<group>"; };
+		C9D023DD1885E2A6002E5F7C /* CreatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatureViewController.h; sourceTree = "<group>"; };
+		C9D023DE1885E2A6002E5F7C /* CreatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatureViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27FE133B188603B500576B9F /* CheckMate.framework in Frameworks */,
 				C9D023A81885D4C9002E5F7C /* CoreGraphics.framework in Frameworks */,
 				C9D023AA1885D4C9002E5F7C /* UIKit.framework in Frameworks */,
 				C9D023A61885D4C9002E5F7C /* Foundation.framework in Frameworks */,
@@ -101,6 +110,7 @@
 		C9D023A41885D4C9002E5F7C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				27FE133A188603B400576B9F /* CheckMate.framework */,
 				C9D023A51885D4C9002E5F7C /* Foundation.framework */,
 				C9D023A71885D4C9002E5F7C /* CoreGraphics.framework */,
 				C9D023A91885D4C9002E5F7C /* UIKit.framework */,
@@ -115,8 +125,12 @@
 				C9D023B41885D4C9002E5F7C /* AppDelegate.h */,
 				C9D023B51885D4C9002E5F7C /* AppDelegate.m */,
 				C9D023B71885D4C9002E5F7C /* Main.storyboard */,
+				C9D023DD1885E2A6002E5F7C /* CreatureViewController.h */,
+				C9D023DE1885E2A6002E5F7C /* CreatureViewController.m */,
 				C9D023BA1885D4C9002E5F7C /* ViewController.h */,
 				C9D023BB1885D4C9002E5F7C /* ViewController.m */,
+				C9D023DA1885D70C002E5F7C /* MagicalCreature.h */,
+				C9D023DB1885D70C002E5F7C /* MagicalCreature.m */,
 				C9D023BD1885D4C9002E5F7C /* Images.xcassets */,
 				C9D023AC1885D4C9002E5F7C /* Supporting Files */,
 			);
@@ -249,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9D023DC1885D70C002E5F7C /* MagicalCreature.m in Sources */,
 				C9D023BC1885D4C9002E5F7C /* ViewController.m in Sources */,
 				C9D023B61885D4C9002E5F7C /* AppDelegate.m in Sources */,
+				C9D023DF1885E2A6002E5F7C /* CreatureViewController.m in Sources */,
 				C9D023B21885D4C9002E5F7C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,6 +394,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Matt/Documents/MobileMakers,
+					/Users/Sonam/Desktop,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MCMS/MCMS-Prefix.pch";
 				INFOPLIST_FILE = "MCMS/MCMS-Info.plist";
@@ -391,6 +412,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Matt/Documents/MobileMakers,
+					/Users/Sonam/Desktop,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MCMS/MCMS-Prefix.pch";
 				INFOPLIST_FILE = "MCMS/MCMS-Info.plist";
@@ -460,6 +486,7 @@
 				C9D023D61885D4C9002E5F7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9D023D71885D4C9002E5F7C /* Build configuration list for PBXNativeTarget "MCMSTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +495,7 @@
 				C9D023D91885D4C9002E5F7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
